@@ -28,24 +28,12 @@ namespace Crypto.Security
         {
             return EncryptAllFilesInFolder("");
             //EncryptAllFilesInFolder("C:\\mails", "*.eml");
-            //EncryptAllFilesInFolder("C:\\mails", "*.pdf");
-            //EncryptAllFilesInFolder("C:\\mails", "*.docx");
-            //EncryptAllFilesInFolder("C:\\mails", "*.xlsx");
-            //EncryptAllFilesInFolder("C:\\mails", "*.zip");
-            //EncryptAllFilesInFolder("C:\\mails", "*.exe");
-            //EncryptAllFilesInFolder("C:\\mails", "*.txt");
         }
 
         public List<string> Decrypt()
         {
             return DecryptAllFilesInFolder("");
             //DecryptAllFilesInFolder("C:\\mails", "*.eml");
-            //DecryptAllFilesInFolder("C:\\mails", "*.pdf");
-            //DecryptAllFilesInFolder("C:\\mails", "*.docx");
-            //DecryptAllFilesInFolder("C:\\mails", "*.xlsx");
-            //DecryptAllFilesInFolder("C:\\mails", "*.zip");
-            //DecryptAllFilesInFolder("C:\\mails", "*.exe");
-            //DecryptAllFilesInFolder("C:\\mails", "*.txt");
         }
 
         /// <summary>
