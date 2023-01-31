@@ -79,7 +79,7 @@ namespace Crypto
             // 
             // btn_encrypt
             // 
-            this.btn_encrypt.Location = new System.Drawing.Point(586, 160);
+            this.btn_encrypt.Location = new System.Drawing.Point(505, 186);
             this.btn_encrypt.Name = "btn_encrypt";
             this.btn_encrypt.Size = new System.Drawing.Size(75, 23);
             this.btn_encrypt.TabIndex = 4;
@@ -144,9 +144,10 @@ namespace Crypto
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(12, 154);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(264, 15);
+            this.label6.Size = new System.Drawing.Size(608, 15);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Key girilmezse varsayılan key üzerinden şifrelenir.";
+            this.label6.Text = "Key girilmezse varsayılan key üzerinden şifrelenir. Yanlış key ile dosyalar çözül" +
+    "meye çalışılırsa dosyalar kurtarılamaz.";
             // 
             // logList
             // 
